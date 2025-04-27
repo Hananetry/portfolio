@@ -723,6 +723,8 @@ html{
 
 
 .listExperiences{
+    margin-left: 15px;
+    margin-right: 15px;
     display: flex;
     justify-content: space-around;
 }

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title> Portfolio </title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="asset/picture/icon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body> 
+
+
+  <header> 
+    <nav class="headerPortfolio">
+      <a class="texteHeader" href="index.html">Hana Badreddine</a>
+
+      <div class="boutonHeader">
+        <input type="checkbox" id="burger" class="burger-toggle" />
+        <label class="burger" for="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      
+  
+      <div class="menu-items">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Projets</a>
+          <ul>
+            <li><a href="projet.html#amazingIsland"><i class="fa-solid fa-arrow-turn-up fa-rotate-90 fa-xl" style="color: #ffffff;"></i> Amazing Island</a></li>
+            <li><a href="projet.html#Arcade"><i class="fa-solid fa-arrow-turn-up fa-rotate-90 fa-xl" style="color: #ffffff;"></i> Mystery Arcade</a></li>
+            <li><a href="projet.html#RisingSunDagger"><i class="fa-solid fa-arrow-turn-up fa-rotate-90 fa-xl" style="color: #ffffff;"></i> Rising Sun Dagger</a></li>
+          </ul>
+        </li>
+      </ul>
+      </div>
+    </div>
+    </nav>
+  </header>
+
+
+
+  <div class="amazingIsland" id="amazingIsland">
+
+    <h1 class="projetH1">1. Amazing Island</h1>
+
+    <div class="MAZEIMG">
+      <img class="amazeing" src="assets/amazeing.png" alt="img de presentation amazingIsland">
+
+      <p>The Amazing Island ou A-maze-Ing Island est un projet scolaire réalisé dans le cadre des matières « Introduction au développement » et « Implémentation d'un besoin client ». <br> <br>
+        Ce projet a pour objectif de matérialiser les déplacements d’un personnage sur un terrain et d’implémenter un certain nombre d’extensions en vue de créer un jeu. <br><br>
+        The Amazing Island est un puzzle game paisible dans lequel on incarne un personnage sans nom, cherchant à sortir de nombreux labyrinthes. <br> Au cours de son aventure, il pourra découvrir divers décors et profiter de douces animations.
+               
+      </p>
+    </div>
+
+    <div class="keywordMaze">
+      <p>Développement</p>
+      <p>Golang</p>
+      <p>Quadtree</p>
+      <p>Game design</p>
+      <p>Labyrinthe</p>
+    </div>
+
+    <div class="Box">
+
+      <div class="card-container">
+        <div class="card">
+          <img class="img-content" src="assets/mazeMenu.png" alt="menu du jeu Amazing Island">
+        <div class="content-video">
+          <video autoplay loop muted >
+            <source src="assets/mazeMenu.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      </div>
+
+      <div class="card-container">
+        <div class="card">
+          <img class="img-content" src="assets/mazeMap.png" alt="map du jeu Amazing Island">
+        <div class="content">
+          <p>
+            Extensions réalisées : <br>
+            - Génération aléatoire de terrain <br>
+            - Enregistrement d’un terrain <br>
+            - Animation des décors <br>
+            - Téléporteurs <br>
+            - Interdiction de marcher sur des tuiles <br>
+            - Caméra bloquée aux bords du terrain <br>
+            - Caméra plus précise <br>
+            - Affichage du terrain amélioré <br>
+            - Particules <br>
+          </p>
+        </div>
+      </div>
+      </div>
+
+      <div class="card-container">
+        <div class="card">
+          <img class="img-content" src="assets/mazeFin.png" alt="fin du jeu Amazing Island">
+        <div class="content-video">
+          <video autoplay loop muted>
+            <source src="assets/mazeMap.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      </div>
+
+      <div class="card-container">
+        <div class="card">
+          <img class="img-content" src="assets/mazeCoord.png" alt="coordonnée dans le jeu Amazing Island">
+        <div class="content">
+          <p>
+            Le terrain est stocké en mémoire à l’aide d’un quadtree pour laquelle nous avons développé une bibliothèque. <br><br> Nous l’avons utilisé pour sa capacité à stocker la structure d’une très grande image de manière compacte.
+          </p>
+        </div>
+      </div>
+      </div>
+
+    </div>
+
+    <img  class="persoMaze" src="assets/mazePerso.png" alt="personnage du jeu Amazing Island">
+  </div>
+  
+
+
+  <div class="separation separation2"></div>
+
+
+  <div class="arcade" id="Arcade">
+
+    <h1 class="projetH1">2. Mystery Arcade</h1>
+
+
+    <div class="Box">
+
+      <video autoplay loop muted disablePictureInPicture class="arcadevideo">
+        <source src="assets/arcadeVid.mp4" type="video/mp4">
+      </video>
+
+      <p class="arcadetext">Mystery Arcade est un projet personnel réalisé en collaboration avec un ami. <br><br>
+        Il s'agit d'une borne d'arcade bartop fonctionnant avec l'émulateur Recalbox. <br> Passionné par le rétrogaming, il était naturel de se lancer dans un projet de ce type. <br><br>
+        Nous avons ainsi construit cette borne de A à Z : soudure, découpe du bois, ponçage et peinture ont constitué les étapes clés de la fabrication matérielle.
+        Pour la partie logicielle, le projet a été réalisé sur un Raspberry Pi 4. L'objectif principal était d'installer l'émulateur et d'ajouter les fonctionnalités souhaitées pour personnaliser l'expérience de jeu.        
+        </p>
+
+        <img src="assets/stickerArcade.png" alt="sticker arcade" class="stickerArcade">
+    </div>
+
+
+    <div class="keywordMaze keyArcade">
+      <p>Bartop</p>
+      <p>Recalbox</p>
+      <p>Arcade</p>
+      <p>Retro Gaming</p>
+    </div>
+
+
+
+    <div class="Box" >
+
+      <div class="card-container boxARcade">
+        <div class="card">
+          <img class="arcadecontent" src="assets/arcadeProfil.png" alt="arcade de profil">
+        <div class="content">
+          <p>
+            Le projet Mystery Arcade a été réalisé en binôme, en combinant nos compétences. <br>L'installation de Recalbox sur un Raspberry Pi 4 a permis de créer une borne fonctionnelle et adaptée à nos attentes.
+          </p>
+        </div>
+      </div>
+      </div>
+
+      <div class="card-container boxARcade">
+        <div class="card">
+          <img class="arcadecontent" src="assets/arcadePlan.png" alt="arcade gros plan">
+        <div class="content-video">
+          <video autoplay loop muted >
+            <source src="assets/arcadejeu.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      </div>
+
+      <div class="card-container boxARcade">
+        <div class="card">
+          <img class="arcadecontent" src="assets/arcadezoom.png" alt="arcade de face">
+        <div class="content">
+          <p>
+            La borne a été entièrement personnalisée, du design des menus aux contrôles. <br>Aujourd'hui, Mystery Arcade propose un large choix de jeux classiques.
+          </p>
+        </div>
+      </div>
+      </div>
+
+    </div>
+
+
+  </div>
+
+  <div class="separation separation3"></div>
+
+  <div class="fighters" id="RisingSunDagger">
+    <h1 class="projetH1">3. Rising Sun Dagger</h1>
+
+    <div class="fightersPIMG">
+      <p>The Rising Sun Dagger est un projet scolaire réalisé dans le cadre de la matière Numérique et Sciences Informatiques. <br> <br>Il s'agit d'un jeu de combat en 1 contre 1, prenant place dans un univers de science-fiction inspiré de l'esthétique japandi. <br>L'objectif principal du projet était de se familiariser avec la bibliothèque Pygame et de développer des classes complètes et fonctionnelles. <br><br>Pour mener à bien ce projet, j'ai conçu l'ensemble des bases du jeu : gestion de la fenêtre, déplacements et attaques des joueurs, détection de collisions, système de points et de barre de vie, animations avec sprites, création d’un menu, ajout de sons et d’un choix de personnages.
+      </p>
+
+      <img src="assets/rising.png" alt="image de présentation du jeu Rising Sun Dagger">
+    </div>
+
+    <div class="keywordMaze fighterskey">
+      
+      <img src="assets/logofighters.png" alt="">
+      <p>Développement</p>
+      <p>Python</p>
+      <p>Fighting Game</p>
+      <p>2 joueurs</p>
+      <p>Game design</p>
+    </div>
+
+
+    <div class="Box">
+      
+      <div class="card-container cardFIght">
+        <div class="card">
+          <img class="risingImgCard" src="assets/risingCard2.png" alt="screen rising sun dagger combat">
+        <div class="content">
+          <p>
+            Ce projet a permis de mettre en œuvre les principales mécaniques d'un jeu de combat en deux dimensions, en alliant programmation orientée objet, animations, gestion des collisions et création d'une interface complète.
+          </p>
+        </div>
+      </div>
+      </div>
+
+
+      <div class="card-container cardFIght">
+        <div class="card">
+          <img class="risingImgCard" src="assets/risingCard1.png" alt="choose your character rising sun">
+        <div class="content-video">
+          <video autoplay loop muted>
+            <source src="assets/risingsunvid.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      </div>
+
+
+
+    </div>
+
+  </div>
+
+
+  <div class="separation separation3"></div>
+ 
+
+
+  <div>
+    
+    <button class="buttonUp" onclick="window.location.href='#';" > 
+      <svg class="svgIcon" viewBox="0 0 384 512">
+        <path
+          d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"
+        ></path>
+      </svg>
+    </button>
+ 
+</div>
+
+  <p class="footer">© 2025 Hana Badreddine</p>
+
+  
+  <script>
+    // Sélectionne la checkbox du menu burger
+    const burgerCheckbox = document.getElementById('burger');
+  
+    // Fonction qui ferme le menu si ouvert
+    function fermerBurgerSiOuvert() {
+      if (burgerCheckbox.checked) {
+        burgerCheckbox.checked = false;
+      }
+    }
+  
+    // Ajoute un événement de scroll à la fenêtre
+    window.addEventListener('scroll', fermerBurgerSiOuvert);
+
+  </script>
+
+</body>
+</html>
+

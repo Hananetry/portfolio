@@ -24,7 +24,7 @@ html{
 
 @media (max-width: 1000px) {
     .paralax {
-        height: 60vh !important; 
+        height: 65vh !important; 
     }
 }
 
@@ -369,9 +369,13 @@ html{
     background: radial-gradient( #f25988, #e5fcf5, #f6eee1, #f6eee1); */      
     
     inset: 0;
-    background: #FFFFFF;
-    background: radial-gradient(37% 75% at 9% 50%,  #f9f9f9 100%, #FFFFFF 40%);
-    
+    background: radial-gradient(37% 75% at 9% 50%,  #f9f9f9 100%, #FFFFFF 40%);  
+}
+
+@media (max-width: 1000px) {
+    .presentation {
+        background: #FFFFFF;
+    }
 }
 
 
@@ -444,6 +448,11 @@ html{
     height: auto;    
 }
 
+.courbe1{
+    padding-bottom: 75px;
+}
+
+
 .courbe2{
     position: absolute;
     bottom: -25px;
@@ -487,7 +496,8 @@ html{
     font-size: 18px;
     color: white;
     text-align: center;
-    padding-bottom: 75px;
+    padding-bottom: 150px;
+    margin-bottom: 0;
 }
 
 
@@ -590,7 +600,6 @@ html{
 .contact p{
     padding-left: 25px;
     font-size: 17px;
-    font-weight: 500;
 }
 
 .contact {
@@ -656,6 +665,7 @@ html{
 
 .comp h1 {
     width: 100%;
+    margin-bottom: 20px;
 }
 
 
@@ -673,7 +683,9 @@ html{
     padding-bottom: 30px;
 }
 
-
+.titreCon{
+    margin-bottom: 140px;
+}
 
 
 
@@ -1094,6 +1106,8 @@ html{
 
 
 
+/* SLIDER POUR PROJETS */
+
 #slider {
     margin: 0 auto;
     width: 1000px;
@@ -1205,6 +1219,13 @@ html{
     border-radius: 100% ;
     background: #444;
     margin: 0 10px;
+}
+
+@media (max-width: 1100px) {
+    #bullets label{
+        width: 15px;
+        height: 15px;
+    }
 }
 
 #slide1:checked ~ #bullets label:nth-child(1),

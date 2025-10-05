@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title> Portfolio </title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="asset/picture/icon.png">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="icon" href="../asset/picture/icon.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body> 
@@ -26,18 +26,18 @@
       <div class="menu-items">
         <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="#">Projets</a>
+        <li><a href="#">Projects</a>
           <ul>
             <li><a href="projet.html#amazingIsland"><i class="fa-solid fa-arrow-turn-up fa-rotate-90 fa-xl" style="color: #ffffff;"></i> Amazing Island</a></li>
             <li><a href="projet.html#Arcade"><i class="fa-solid fa-arrow-turn-up fa-rotate-90 fa-xl" style="color: #ffffff;"></i> Mystery Arcade</a></li>
             <li><a href="projet.html#RisingSunDagger"><i class="fa-solid fa-arrow-turn-up fa-rotate-90 fa-xl" style="color: #ffffff;"></i> Rising Sun Dagger</a></li>
           </ul>
         </li>
-        <li> <p class="languesswitch">Langues</p>
+        <li> <p class="languesswitch">Languages</p>
               <div class="changerLangue">
-              <img class="drapeau drapeauNonSelec" src="assets/france.png" alt="drapeau français">
+              <img class="drapeau drapeauNonSelec" src="../assets/royaume-uni.png" alt="drapeau français">
               <p class="separateurDrapeau">/</p>
-              <a href="en/projet.html"><img class="drapeau drapeauSelec" src="assets/royaume-uni.png" alt="drapeau UK"></a></div>
+              <a href="../projet.html"><img class="drapeau drapeauSelec" src="../assets/france.png" alt="drapeau UK"></a></div>
         </li>
       </ul>
       </div>
@@ -52,31 +52,31 @@
     <h1 class="projetH1">1. Amazing Island</h1>
 
     <div class="MAZEIMG">
-      <img class="amazeing" src="assets/amazeing.png" alt="img de presentation amazingIsland">
+      <img class="amazeing" src="../assets/amazeing.png" alt="img de presentation amazingIsland">
 
-      <p>The Amazing Island ou A-maze-Ing Island est un projet scolaire réalisé dans le cadre des matières « Introduction au développement » et « Implémentation d'un besoin client ». <br> <br>
-        Ce projet a pour objectif de matérialiser les déplacements d’un personnage sur un terrain en vue de créer un jeu. <br><br>
-        The Amazing Island est un puzzle game paisible dans lequel on incarne un personnage sans nom, cherchant à sortir de nombreux labyrinthes. <br> Au cours de son aventure, il pourra découvrir divers décors et profiter de douces animations.
+      <p>The Amazing Island or A-maze-Ing Island is an academic project made in pairs for the modules "Introduction to Software Development" and "Implementation of a Customer Requirement". <br> <br>
+        The goal of this project is to materialize the movements of a character in the aim of creating a game. <br><br>
+        The Amazing Island is a relaxing puzzle game where you play a as nameless character trying to escape from multiple mazes. <br> Throughout the adventure, you will discover various environments and enjoy soothing animations.
                
       </p>
     </div>
 
     <div class="keywordMaze">
-      <p>Développement</p>
+      <p>Development</p>
       <p>Golang</p>
       <p>Quadtree</p>
       <p>Game design</p>
-      <p>Labyrinthe</p>
+      <p>Maze</p>
     </div>
 
     <div class="Box">
 
       <div class="card-container">
         <div class="card">
-          <img class="img-content" src="assets/mazeMenu.png" alt="menu du jeu Amazing Island">
+          <img class="img-content" src="../assets/mazeMenu.png" alt="menu du jeu Amazing Island">
         <div class="content-video">
           <video autoplay loop muted >
-            <source src="assets/mazeMenu.mp4" type="video/mp4">
+            <source src="../assets/mazeMenu.mp4" type="video/mp4">
           </video>
         </div>
       </div>
@@ -84,9 +84,10 @@
 
       <div class="card-container">
         <div class="card">
-          <img class="img-content" src="assets/mazeMap.png" alt="map du jeu Amazing Island">
+          <img class="img-content" src="../assets/mazeMap.png" alt="map du jeu Amazing Island">
         <div class="content">
-          <p>The Amazing Island propose diverses fonctionnalités telles que la génération aléatoire et l’enregistrement de terrains, l’utilisation de téléporteurs, une caméra précise et un effet de particules.
+          <p>
+            The Amazing Island offers multiple features  such as random generation and saving of terrain, the use of teleporters, a precise camera, and particle effects.
           </p>
         </div>
       </div>
@@ -94,10 +95,10 @@
 
       <div class="card-container">
         <div class="card">
-          <img class="img-content" src="assets/mazeFin.png" alt="fin du jeu Amazing Island">
+          <img class="img-content" src="../assets/mazeFin.png" alt="fin du jeu Amazing Island">
         <div class="content-video">
           <video autoplay loop muted>
-            <source src="assets/mazeMap.mp4" type="video/mp4">
+            <source src="../assets/mazeMap.mp4" type="video/mp4">
           </video>
         </div>
       </div>
@@ -105,10 +106,10 @@
 
       <div class="card-container">
         <div class="card">
-          <img class="img-content" src="assets/mazeCoord.png" alt="coordonnée dans le jeu Amazing Island">
+          <img class="img-content" src="../assets/mazeCoord.png" alt="coordonnée dans le jeu Amazing Island">
         <div class="content">
           <p>
-            Le terrain est stocké en mémoire à l’aide d’un quadtree pour lequel nous avons développé une bibliothèque. <br><br> Nous l’avons utilisé pour sa capacité à stocker la structure d’une très grande image de manière compacte.
+            The terrain is stored in memory using a quadtree for which we developed a library. <br><br> We used it for its ability to store the structure of a very large image in a compact way.
           </p>
         </div>
       </div>
@@ -116,7 +117,7 @@
 
     </div>
 
-    <img  class="persoMaze" src="assets/mazePerso.png" alt="personnage du jeu Amazing Island">
+    <img  class="persoMaze" src="../assets/mazePerso.png" alt="personnage du jeu Amazing Island">
   </div>
   
 
@@ -132,16 +133,16 @@
     <div class="Box">
 
       <video autoplay loop muted disablePictureInPicture class="arcadevideo">
-        <source src="assets/arcadeVid.mp4" type="video/mp4">
+        <source src="../assets/arcadeVid.mp4" type="video/mp4">
       </video>
 
-      <p class="arcadetext">Mystery Arcade est un projet personnel réalisé en collaboration avec un ami. <br><br>
-        Il s'agit d'une borne d'arcade bartop fonctionnant avec l'émulateur Recalbox. <br> Passionné par le rétrogaming, il était naturel de se lancer dans un projet de ce type. <br><br>
+      <p class="arcadetext">Mystery Arcade is a personal projects made in collaboration with a friend. <br><br>
+        It is a bartop arcade running on the Recalbox emulator.  <br> Passionné par le rétrogaming, il était naturel de se lancer dans un projet de ce type. <br><br>
         Nous avons ainsi construit cette borne de A à Z : soudure, découpe du bois, ponçage et peinture ont constitué les étapes clés de la fabrication matérielle.
         Pour la partie logicielle, le projet a été réalisé sur un Raspberry Pi 4. L'objectif principal était d'installer l'émulateur et d'ajouter les fonctionnalités souhaitées pour personnaliser l'expérience de jeu.        
         </p>
 
-        <img src="assets/stickerArcade.png" alt="sticker arcade" class="stickerArcade">
+        <img src="../assets/stickerArcade.png" alt="sticker arcade" class="stickerArcade">
     </div>
 
 
@@ -158,7 +159,7 @@
 
       <div class="card-container boxARcade">
         <div class="card">
-          <img class="arcadecontent" src="assets/arcadeProfil.png" alt="arcade de profil">
+          <img class="arcadecontent" src="../assets/arcadeProfil.png" alt="arcade de profil">
         <div class="content">
           <p>
             Le projet Mystery Arcade a été réalisé en binôme, en combinant nos compétences. <br>L'installation de Recalbox sur un Raspberry Pi 4 a permis de créer une borne fonctionnelle et adaptée à nos attentes.
@@ -169,10 +170,10 @@
 
       <div class="card-container boxARcade">
         <div class="card">
-          <img class="arcadecontent" src="assets/arcadePlan.png" alt="arcade gros plan">
+          <img class="arcadecontent" src="../assets/arcadePlan.png" alt="arcade gros plan">
         <div class="content-video">
           <video autoplay loop muted >
-            <source src="assets/arcadejeu.mp4" type="video/mp4">
+            <source src="../assets/arcadejeu.mp4" type="video/mp4">
           </video>
         </div>
       </div>
@@ -180,7 +181,7 @@
 
       <div class="card-container boxARcade">
         <div class="card">
-          <img class="arcadecontent" src="assets/arcadezoom.png" alt="arcade de face">
+          <img class="arcadecontent" src="../assets/arcadezoom.png" alt="arcade de face">
         <div class="content">
           <p>
             La borne a été entièrement personnalisée, du design des menus aux contrôles. <br>Aujourd'hui, Mystery Arcade propose un large choix de jeux classiques.
@@ -200,19 +201,19 @@
     <h1 class="projetH1">3. Rising Sun Dagger</h1>
 
     <div class="fightersPIMG">
-      <p>The Rising Sun Dagger est un projet scolaire réalisé dans le cadre de la matière Numérique et Sciences Informatiques. <br> <br>Il s'agit d'un jeu de combat en 1 contre 1, prenant place dans un univers de science-fiction inspiré de l'esthétique japandi. <br>L'objectif principal du projet était de se familiariser avec la bibliothèque Pygame et de développer des classes complètes et fonctionnelles. <br><br>Pour mener à bien ce projet, j'ai conçu l'ensemble des bases du jeu : gestion de la fenêtre, déplacements et attaques des joueurs, détection de collisions, système de points et de barre de vie, animations avec sprites, création d’un menu, ajout de sons et d’un choix de personnages.
+      <p>The Rising Sun Dagger is a high school project made during Computer Science courses. <br> <br>Il s'agit d'un jeu de combat en 1 contre 1, prenant place dans un univers de science-fiction inspiré de l'esthétique japandi. <br>L'objectif principal du projet était de se familiariser avec la bibliothèque Pygame et de développer des classes complètes et fonctionnelles. <br><br>Pour mener à bien ce projet, j'ai conçu l'ensemble des bases du jeu : gestion de la fenêtre, déplacements et attaques des joueurs, détection de collisions, système de points et de barre de vie, animations avec sprites, création d’un menu, ajout de sons et d’un choix de personnages.
       </p>
 
-      <img src="assets/rising.png" alt="image de présentation du jeu Rising Sun Dagger">
+      <img src="../assets/rising.png" alt="image de présentation du jeu Rising Sun Dagger">
     </div>
 
     <div class="keywordMaze fighterskey">
       
-      <img src="assets/logofighters.png" alt="">
-      <p>Développement</p>
+      <img src="../assets/logofighters.png" alt="">
+      <p>Development</p>
       <p>Python</p>
       <p>Fighting Game</p>
-      <p>2 joueurs</p>
+      <p>2 players</p>
       <p>Game design</p>
     </div>
 
@@ -221,7 +222,7 @@
       
       <div class="card-container cardFIght">
         <div class="card">
-          <img class="risingImgCard" src="assets/risingCard2.png" alt="screen rising sun dagger combat">
+          <img class="risingImgCard" src="../assets/risingCard2.png" alt="screen rising sun dagger combat">
         <div class="content">
           <p>
             Ce projet a permis de mettre en œuvre les principales mécaniques d'un jeu de combat en deux dimensions, en alliant programmation orientée objet, animations, gestion des collisions et création d'une interface complète.
@@ -233,10 +234,10 @@
 
       <div class="card-container cardFIght">
         <div class="card">
-          <img class="risingImgCard" src="assets/risingCard1.png" alt="choose your character rising sun">
+          <img class="risingImgCard" src="../assets/risingCard1.png" alt="choose your character rising sun">
         <div class="content-video">
           <video autoplay loop muted>
-            <source src="assets/risingsunvid.mp4" type="video/mp4">
+            <source src="../assets/risingsunvid.mp4" type="video/mp4">
           </video>
         </div>
       </div>
@@ -255,7 +256,7 @@
 
   <div>
     
-    <button class="buttonUp" onclick="window.location.href='#';" > 
+    <button class="buttonUp buttonUpEN" onclick="window.location.href='#';" > 
       <svg class="svgIcon" viewBox="0 0 384 512">
         <path
           d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"

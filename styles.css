@@ -58,6 +58,9 @@ html{
     border-radius: 100px;
 }
 
+.scrollAnglais{
+    width: 260px;
+}
 
 .flechebas{
     position: relative;
@@ -165,19 +168,6 @@ html{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Cacher la checkbox */
 .burger-toggle {
     display: none;
@@ -262,6 +252,8 @@ html{
 
 .menu-items li{
     padding-top: 50px;
+    list-style-type: none;
+
 }
 
 .menu-items li>ul>li{
@@ -288,6 +280,39 @@ html{
 
 
 
+.languesswitch {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.changerLangue{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 45px;
+    margin-top: 20px;
+
+}
+
+.drapeau {
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+}
+
+.drapeauSelec:hover {
+    background-color: #FFFFFF;
+    border-radius: 100px;
+}
+
+.separateurDrapeau{
+    color: #FFFFFF;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 40px;
+}
 
 
 
@@ -706,7 +731,7 @@ html{
     font-size: 36px;
     margin-left: 5%;
     margin-bottom: 3%;
-    width: 525px;
+    width: 450px;
     text-align: center;
     border: 1px solid;
     border-color: #282424;
@@ -739,6 +764,8 @@ html{
     margin-right: 15px;
     display: flex;
     justify-content: space-around;
+    flex-flow: row wrap;
+
 }
 
 .listExperiences div{
@@ -1351,6 +1378,10 @@ html{
     color: white;
     /* transition-duration: .3s; */
     font-size: 0px;
+  }
+
+  .buttonUpEN::before{
+    content: "Back to top";
   }
   
   .buttonUp:hover::before {
